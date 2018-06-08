@@ -12,7 +12,7 @@
 //////////////////////////////
 
 var through = require('through2'),
-    lint = require('sass-lint'),
+    lint = require('sass-lint-fix'),
     path = require('path'),
     PluginError = require('plugin-error'),
     PLUGIN_NAME = 'sass-lint';
